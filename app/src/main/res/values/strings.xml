@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FavoritePet</string>
+    <string name="msg_title">선택을 시작하겠습니까? </string>
+    <string name="check_lbl">시작함</string>
+    <string name="msg_quest">좋아하는 치열이는?</string>
+    <string name="chi_1">황치열</string>
+    <string name="chi_2">황치열</string>
+    <string name="chi_3">황치열</string>
+    <string name="bur_lbl">선택완료</string>
+</resources>
