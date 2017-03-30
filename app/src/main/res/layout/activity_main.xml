@@ -4,15 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="yejin.kr.hr.emirim.favoritepet.MainActivity">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_title"
+        android:textSize="20sp"
+        android:visibility="invisible"
+         />
+    <CheckBox
+        android:id="@+id/check_select"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:text="@string/check_lbl"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_quest"
+        android:textSize="20sp"
+        />
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+        <RadioButton
+            android:id="@+id/radio_chi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chi_1"/>
+        <RadioButton
+            android:id="@+id/radio_chi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chi_2"/>
+        <RadioButton
+            android:id="@+id/radio_chi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chi_3"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/but_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bur_lbl"
+        android:visibility="invisible"
+        />
+    <ImageView
+        android:id="@+id/imgv_pet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/htm_201604068413424901"
+        android:visibility="invisible"
+        />
 </LinearLayout>
